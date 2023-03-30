@@ -33,6 +33,7 @@ epoll实际上将所有监听的文件描述符放在一棵红黑树上，监听
 #include <sys/epoll.h>
 {% endhighlight js %}
 
+
 ####　int epoll_create(int size)
 
 返回红黑树根节点句柄，size是监听的文件描述符数量，可以扩容。
